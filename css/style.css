@@ -1,27 +1,48 @@
 
+body {overflow:scroll;
+background-color: #fdf4f2;}
+
 .page-content {margin:auto;
     max-width:1000px;
 font-family: Arial, Helvetica, sans-serif;
+background-color: #fdf4f2;
 }
     
     .row {display:flex;}
     
-    .column {background-color: rgb(173, 173, 240);
+    .column {background-color: #fdf4f2;
     flex:50%;
     margin:10px;
 padding:20px;}
 
 a {text-decoration: none;
 padding:10px;
-color:rgb(0, 0, 0)}
+color:rgb(0, 0, 0);
+font-size:20px; }
 
-a:hover {cursor: pointer;}
+a:hover {cursor: pointer;
+background-color:rgb(172, 246, 248);
+border-radius:5px;
+}
     
-    
-    #snowpic {width:250px;
+    #para-one {padding:10px;
+    margin:10px;}
+
+    #aboutme {margin:10px;
+        font-size: 20px;;
+    }
+
+    #para-two {padding: 10px;
+    margin:10px;
+}
+
+    #snowpic {width:300px;
     border-radius:50%;
     position:absolute;
+    margin:10px;
     }
     
     @media only screen and (max-width:500px) {
     #img-column { display:none;} }
+
+ 
